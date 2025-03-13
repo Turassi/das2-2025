@@ -20,3 +20,27 @@ Modelo de responsabilidade compartilhada = nunca é da AWS 100%, (EC2/IaaS = inf
 Porta 22 SSH - acesso remoto para máquina 
 
 Permissões = acessos para determinadas funções.
+
+# aula 13/03/2025
+
+modelo de responsabilidade compartilhada = nuvem responsabilidade do cliente / hardware reponsabilidade da aws
+
+princípio do privilégio minímo = apenas o que o usúario precisa para fazer suas funções, nem mais nem menos
+
+autenticação = provar que é você mesmo
+
+autorização 
+
+identity and access management
+
+usuários
+
+acesso pelo console / acesso programático
+
+MFA (MULTIFACTOR AUTHENTICATION)
+
+CREDENCIAIS TEMPORÁRIAS / COM VALIDADE
+
+gRUPOS SÓ POSSUEM USERS E PERMISSÕES / COLOCAR UM USUÁRIO NO GRUPO DISPONIBILIZA AS PERMISSÕES DO GRUPO PARA O USUÁRIO
+
+ROLES (FUNÇÃO PAPEL)= EXEMPLO (PERMISSÕES DE COZINHA , PERDE AS PERMISSÕES E GANHA PERMISSÕES DE CAIXA TEMPORARIAMENTE) KEYS TEMPORÁRIAS AO ASSUMIR UMA FUNÇÃO NOVA, AO ASSUMIR NOVAMENTE ESSA POSIÇÃO, GANHA KEYS NOVAS QUE TAMBÉM SÃO TEMPORÁRIAS 
