@@ -55,3 +55,9 @@ efeito
 ação 
 
 recurso
+
+# aula 20/03/2025
+
+Amazon S3 só roda estático
+
+
