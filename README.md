@@ -60,4 +60,12 @@ recurso
 
 Amazon S3 só roda estático
 
+# aula 24/03/2025
+
+LifeCycle
+Limite de vida dos arquivos, muitos GB = Muitos custos, é importante apagar arquivos inúteis, ou adicionar validade para arquivos, assim é mais fácil o controle de arquivos inúteis e importantes.
+
+CORS : SUPORT FOR CROSS-ORIGIN RESOURCE SHARING
+proteção para compartilhamento 
+
 
