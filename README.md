@@ -173,4 +173,83 @@ Limite de vida dos arquivos, muitos GB = Muitos custos, é importante apagar arq
 CORS : SUPORT FOR CROSS-ORIGIN RESOURCE SHARING
 proteção para compartilhamento 
 
+# aula 05/05/2025
+
+VPC (Virtual Private Cloud):
+  É uma rede virtual isolada dentro da nuvem (como AWS ou GCP), onde você define e controla o ambiente de rede (IP, subnets, roteamento etc.) para seus recursos.
+  
+CIDR (Classless Inter-Domain Routing):
+  Notação usada para definir blocos de endereços IP (ex: `192.168.0.0/16`). Permite configurar o tamanho e alcance da rede dentro da VPC.
+
+Subnet Pública:
+  Sub-rede dentro da VPC que permite acesso direto à internet, geralmente usada para recursos como servidores web, que precisam ser acessíveis externamente.
+
+# aula 12/05/2025
+
+Fazer os laboratórios Canvas
+
+Guided lab: Creating a Virtual Private Cloud
+
+Challenge (Cafe) lab: Creating a VPC Networking Environment for the Café
+
+# aula 15/05/2025
+
+Fazer os laboratórios Canvas
+
+Guided lab: Creating a Virtual Private Cloud
+
+Challenge (Cafe) lab: Creating a VPC Networking Environment for the Café
+
+# aula 19/05/2025
+
+VPC Peering:
+Conexão privada entre duas VPCs, permitindo que recursos em redes diferentes se comuniquem diretamente como se estivessem na mesma rede — sem passar pela internet.
+
+AWS VPN Site-to-Site:
+Conexão criptografada via internet entre uma rede local (on-premises) e uma VPC na AWS, criando uma extensão segura da rede corporativa para a nuvem.
+
+AWS Direct Connect:
+Conexão física dedicada entre seu datacenter (ou rede local) e a AWS, oferecendo mais velocidade, menor latência e maior estabilidade em comparação à VPN pela internet.
+
+# aula 26/05/2025
+
+IAM Groups:
+Conjuntos de usuários do IAM que compartilham as mesmas permissões. Facilita o gerenciamento de acesso por função (ex: “Desenvolvedores”, “Administradores”).
+
+Roles - AWS STS:
+Roles são perfis temporários com permissões específicas, usados por usuários ou serviços para acessar recursos da AWS.
+AWS STS (Security Token Service) emite credenciais temporárias para essas roles, úteis para acessos controlados e temporários (como serviços externos ou contas diferentes).
+
+AWS Cognito:
+Serviço de autenticação e gerenciamento de usuários para apps web e mobile. Permite login com e-mail, redes sociais ou SSO, e integra com IAM para controlar o acesso aos recursos da AWS.
+
+# aula 29/05/2025
+
+Criptografia Simétrica:
+Usa a mesma chave para criptografar e descriptografar os dados. É mais rápida, mas exige que a chave seja mantida em segredo por ambos os lados.
+Exemplo: AES.
+
+Criptografia Assimétrica:
+Usa um par de chaves: uma pública (para criptografar) e uma privada (para descriptografar). Ideal para troca segura de informações e autenticação.
+Exemplo: RSA.
+
+# aula 09/06/2025
+
+Fazer os laboratórios Canvas
+
+Guided lab: Creating a Highly Available Environment
+
+Challenge (Café) lab: Creating a Scalable and Highly Available Environment for the Café
+
+# aula 12/06/2025
+
+Fazer os laboratórios Canvas
+
+Guided lab: Creating a Highly Available Environment
+
+Challenge (Café) lab: Creating a Scalable and Highly Available Environment for the Café
+
+
+
+
 
