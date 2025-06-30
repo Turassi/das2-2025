@@ -249,7 +249,30 @@ Guided lab: Creating a Highly Available Environment
 
 Challenge (Café) lab: Creating a Scalable and Highly Available Environment for the Café
 
+# aula 16/06/2025
 
+Load Balancer:
+Distribui automaticamente o tráfego entre múltiplos servidores ou instâncias para garantir alta disponibilidade, escalabilidade e desempenho.
 
+DNS (Domain Name System):
+Sistema que traduz nomes de domínio legíveis (ex: example.com) em endereços IP, permitindo que clientes encontrem e se conectem a serviços na rede.
+
+# aula 23/06/2025
+
+Infraestrutura como Código (IaC): prática de gerenciar e provisionar infraestrutura (servidores, redes, serviços) por meio de arquivos de configuração e scripts de código — ao invés de processos manuais.
+
+Isso traz automação, consistência e versionamento, usando ferramentas como Terraform, CloudFormation e Ansible.
+
+# aula 26/06/2025
+
+Usar APIs bem definidas: expor funcionalidades via interfaces estáveis.
+
+Adotar arquitetura orientada a serviços ou microsserviços: dividir em componentes independentes.
+
+Aplicar padrões de mensageria/eventos: usar filas ou brokers para comunicação assíncrona.
+
+Injetar dependências: usar injeção de dependência para flexibilizar ligações entre módulos.
+
+Separar responsabilidades: seguir princípios como SRP (Single Responsibility Principle).
 
 
